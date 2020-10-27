@@ -1,0 +1,58 @@
+@font-face {
+    font-family: terror;
+    src: url("../font/terror.ttf");
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+.card {
+    display: flex;
+    position:fixed;
+    z-index:100;
+}
+
+.card-body {
+    background-image: url(../img/fondo.png);
+    width: 350px;
+    height: 160px;
+    display: flex;
+    position: fixed;    
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: terror;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 2.2rem;
+    line-height: 2.64rem;
+    color: #FFFFFF;
+
+}
+
+.btn-dangers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 3px;
+    padding: 8px 0px 0px 12px;
+    border-radius: 3px;
+    background: #A80A30;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 130px;
+    height: 43px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
